@@ -1,0 +1,49 @@
+------------------------------------
+int n; | 1,2, -1,3
+double flutuante = 2.85; | 1.73 2.14
+string palavra = "SENAI";  | "Escrita"
+char caractere = 'A'; | 'C' S' 'T'
+bool logica1 = true; |  True / False
+
+ReadKey(); //Não exibir intermediário do console
+\n : Quebra de linha
+\t : Tabulação
+ForegroundColor = ConsoleColor.Green : Muda a cor do texto
+BackgroundColor = ConsoleColor.Black : Muda a cor do fundo
+Operadores de scape são: \n \t \r \b \f \v \\ \' \" \0
+------------------------------------
+C# Fortemente Tipada
+Dados : Informações 
+Variaveis : Armazenamento de Dados 
+= é para atribuição de valor a uma variável 
++ concatenação de Strings
+
+# Saída de Dados
+	Console.WriteLine("Texto");
+	Conole.Write("Texto");
+
+# Processamento de dados
+	int a 1 + 1 | Operador de soma
+	2 - 1 | Operador de subtração
+	3 * 2 | Operador de multiplicação
+	4 / 1 | Operador de divisão
+	5 % 2 | Operador de resto da divisão
+
+	1 + 1 - 2 * 3 / 4; No caso de uma operação com mais de um operador, a ordem de precedência é: () * / % + - | (()) Ele faz o interno primeiro, 
+	depois ele faz a multiplicação, divisão e resto da divisão, e por último a soma e subtração.
+
+	Operadores Aritméticos: + - * / % 
+	Operadores Relacionais: == != > < >= <=
+	Operadores Lógicos: && || !
+	Operadores de Incremento e Decremento: ++ --
+
+
+
+
+
+
+Largura - dougle 10,5
+Comprimento - double 20,3
+Valor  - double 1.500,0
+Área dougle largura * comprimento 
+Preço double area * valor

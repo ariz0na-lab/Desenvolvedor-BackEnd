@@ -1,0 +1,54 @@
+using static System.Console;
+
+// SAÍDA DE DADOS NO CONSOLE
+/* 
+WriteLine("Hello, World!");
+Write("SENAI");
+WriteLine("\tClodoaldo");
+WriteLine("CAMPEAO\nClodoaldo"); 
+*/
+
+Title = "SENAI | BACKEND";
+Beep(500, 500);
+
+string escola = "AMERICANA";
+WriteLine($"SENAI {escola}\n");
+
+BackgroundColor = ConsoleColor.DarkBlue;
+ForegroundColor = ConsoleColor.Green;
+WriteLine("SENAI | BACKEND");
+
+BackgroundColor = ConsoleColor.Black;
+ForegroundColor = ConsoleColor.White;
+WriteLine("Americana - SP");
+
+double numero = 1.787654321;
+WriteLine($"O numero é {numero:n}");
+
+ReadKey();
+
+
+
+
+// Processamento de dados
+int a 1 + 1; //Operador de soma
+int b 2 - 1; //Operador de subtração
+int c 3 * 2; //Operador de multiplicação
+double d 4 / 1; //Operador de divisão
+double e 2 * 2 * 2; //Operador de exponenciação
+double f = Math.Sqrt(4); //Operador de raiz quadrada
+Math.Pow(2, 3); //Operador de potenciação ex: 2 elevado a 3
+double k = 1 + (1 - (2 * 3)) / 4; //No caso de uma operação com mais de um operador, a ordem de precedência é: () * / % +- |
+double j = 2 % 2; //Módulo, resto da divisão par ou impar, se o resultado for 0 é par, se for 1 é ímpar.
+int l = 0;
+Console.WriteLine(l);
+y++; //incremento, soma 1 ao valor da variável
+Console.WriteLine(l);
+y--; //decremento, subtrai 1 ao valor da variável
+Console.WriteLine(l);
+y += 2; //incremento, soma 2 ao valor da variável
+y -= 2; // Subtração e atribuição
+y *= 2; // Multiplicação e atribuição
+y /= 2; // Divisão e atribuição
+y %= 2; // Módulo e atribuição
+Console.WriteLine(l); 
