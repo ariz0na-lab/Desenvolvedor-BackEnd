@@ -32,7 +32,7 @@ Variaveis : Armazenamento de Dados
 	1 + 1 - 2 * 3 / 4; No caso de uma operação com mais de um operador, a ordem de precedência é: () * / % + - | (()) Ele faz o interno primeiro, 
 	depois ele faz a multiplicação, divisão e resto da divisão, e por último a soma e subtração.
 
-	Operadores Aritméticos: + - * / % 
+	Operadores Aritméticos: + - * / % ++ -- += -= *= /=
 	Operadores Relacionais: == != > < >= <=
 	Operadores Lógicos: && || !
 	Operadores de Incremento e Decremento: ++ --
@@ -41,9 +41,3 @@ Variaveis : Armazenamento de Dados
 
 
 
-
-Largura - dougle 10,5
-Comprimento - double 20,3
-Valor  - double 1.500,0
-Área dougle largura * comprimento 
-Preço double area * valor
