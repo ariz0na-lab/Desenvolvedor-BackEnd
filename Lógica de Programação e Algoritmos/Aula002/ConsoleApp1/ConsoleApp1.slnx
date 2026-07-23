@@ -3,4 +3,5 @@
   <Project Path="Atividade01Aula03/Atividade01Aula03.csproj" Id="df86b3cd-aac5-4501-a17f-eafa366fc7c5" />
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
   <Project Path="ExercicioRetangulo/ExercicioRetangulo.csproj" Id="f51f77d1-74cd-494d-8e20-35184dbbf0c4" />
+  <Project Path="Medidas/Medidas.csproj" Id="ace5c753-d742-4897-8bba-5ea8fa558d3d" />
 </Solution>

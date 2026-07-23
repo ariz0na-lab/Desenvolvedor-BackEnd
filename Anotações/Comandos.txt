@@ -51,4 +51,5 @@ y -= 2; // Subtração e atribuição
 y *= 2; // Multiplicação e atribuição
 y /= 2; // Divisão e atribuição
 y %= 2; // Módulo e atribuição
-Console.WriteLine(l); 
+
+Console.ReadLine(); //Evitar fechamento automático do console

@@ -39,8 +39,3 @@ Console.WriteLine(x | y);
 */
 
 
-
-
-
-
-Console.ReadLine(); //Evitar fechamento automático do console
