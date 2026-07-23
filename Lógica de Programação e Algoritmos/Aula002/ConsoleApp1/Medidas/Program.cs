@@ -43,7 +43,7 @@ catch
 }
 finally
 {
-    Console.BackgroundColor = ConsoleColor.White;
+    Console.BackgroundColor = ConsoleColor.Black;
     Console.ForegroundColor = ConsoleColor.Red;
     WriteLine("\nEncerrando o programa.");
 }
