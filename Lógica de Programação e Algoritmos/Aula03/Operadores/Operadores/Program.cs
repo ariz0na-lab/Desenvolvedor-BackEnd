@@ -1,16 +1,14 @@
-﻿// Operadores relacionais 
-/* <  | menor que
-   >  | maior que
-   <= | menor ou igual a
-   >= | maior ou igual a
-   == | igual a
-   != | diferente de
-*/
-
+﻿//Operadores relacionais
+/*  <  | menor
+ *  >  | maior
+ *  <= | menor ou igual
+ *  >= | maior ou igual
+ *  == | igual
+ *  != | diferente 
+ */
 /*
 double x = 2.14;
 double y = 2;
-
 Console.WriteLine(x < y);
 Console.WriteLine(x <= y);
 Console.WriteLine(x > y);
@@ -22,20 +20,19 @@ Console.WriteLine(a == b);
 Console.WriteLine(a != b);
 
 Console.WriteLine(a == b ? "Verdade" : "OK");
-
-//Operadores Lógicos &  | E Lógico
-   || | OU logico condicional
-   !  | Inversão lógica
-    ^ | OU Exclusivo 
-   && | E lógico condicional
-   &  | E lógico, ambos os lados são verdaeiros.
-   |  | OU lógico se um dos valores logicos for verdadeiro, o resultado é verdadeiro.
-
-
-bool x = false;
-bool y = true;
-
-Console.WriteLine(x | y);
+*/
+//Operadores Lógicos
+/*
+ *  !  | Negação lógica
+ *  &  | E lógico
+ *  |  | OU lógico
+ *  ^  | OU exclusiva lógica
+ *  && | E lógico condicional
+ *  || | OU lógico condicional
+ * 
 */
 
+bool x = false;
+bool y = false;
 
+Console.WriteLine(x || y);
