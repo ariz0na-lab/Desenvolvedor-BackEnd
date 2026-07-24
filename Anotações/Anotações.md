@@ -328,3 +328,15 @@ ReadKey();
 - Prefira interpolação (`$""`) ao invés de concatenação quando possível.
 - Organize o código utilizando comentários apenas quando realmente agregarem valor.
 - Utilize `ReadKey()` para impedir o fechamento imediato do console durante testes.
+
+---
+# Aula 04
+var = Tipagem de variáveis dinamica.
+
+## Sequencia de código
+```
+// Declaração de variáveis
+// Entrada de dados
+// Processamento de dados
+// Saída de dados
+```
