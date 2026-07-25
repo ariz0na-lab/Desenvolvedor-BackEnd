@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="SextaFeira/SextaFeira.csproj" />
+  <Project Path="Tela/Tela.csproj" />
   <Project Path="Tempo/Tempo.csproj" />
   <Project Path="Tempo2/Tempo2.csproj" />
 </Solution>
