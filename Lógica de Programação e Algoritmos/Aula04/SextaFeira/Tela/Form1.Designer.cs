@@ -34,11 +34,13 @@
             label2 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(59, 138);
+            button1.Location = new Point(19, 208);
             button1.Name = "button1";
             button1.Size = new Size(83, 24);
             button1.TabIndex = 0;
@@ -48,7 +50,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(59, 168);
+            button2.Location = new Point(116, 208);
             button2.Name = "button2";
             button2.Size = new Size(83, 24);
             button2.TabIndex = 1;
@@ -58,7 +60,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(79, 9);
+            label1.Location = new Point(79, 90);
             label1.Name = "label1";
             label1.Size = new Size(44, 15);
             label1.TabIndex = 2;
@@ -67,7 +69,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(79, 71);
+            label2.Location = new Point(79, 136);
             label2.Name = "label2";
             label2.Size = new Size(42, 15);
             label2.TabIndex = 3;
@@ -75,25 +77,36 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(19, 27);
+            textBox1.Location = new Point(19, 108);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(180, 23);
             textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(23, 89);
+            textBox2.Location = new Point(23, 154);
             textBox2.Name = "textBox2";
             textBox2.PasswordChar = '*';
             textBox2.Size = new Size(176, 23);
             textBox2.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.logo;
+            pictureBox1.Location = new Point(35, 23);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(135, 38);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDarkDark;
-            ClientSize = new Size(213, 207);
+            ClientSize = new Size(213, 239);
+            Controls.Add(pictureBox1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label2);
@@ -103,6 +116,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -115,5 +129,6 @@
         private Label label2;
         private TextBox textBox1;
         private TextBox textBox2;
+        private PictureBox pictureBox1;
     }
 }
