@@ -1,5 +1,4 @@
 # 📘 C# - Anotações Básicas
-
 ## C# é uma linguagem fortemente tipada
 
 - **Dados:** Informações.
@@ -8,9 +7,7 @@
 - **`+`:** Soma de números ou concatenação de strings.
 
 ---
-
 # Tipos de Dados
-
 | Tipo | Exemplo | Descrição |
 |------|---------|-----------|
 | `int` | `1`, `-5`, `100` | Números inteiros |
@@ -28,9 +25,7 @@ bool aprovado = true;
 ```
 
 ---
-
 # Saída de Dados
-
 ```csharp
 Console.WriteLine("Texto"); // Escreve e pula linha
 Console.Write("Texto");      // Escreve na mesma linha
@@ -44,18 +39,14 @@ Write("Texto");
 ```
 
 ---
-
 # Entrada de Dados
-
 ```csharp
 Console.ReadLine(); // Lê uma linha digitada pelo usuário
 ReadKey();          // Aguarda uma tecla ser pressionada
 ```
 
 ---
-
 # Sequências de Escape
-
 | Escape | Significado |
 |---------|-------------|
 | `\n` | Nova linha |
@@ -70,46 +61,34 @@ ReadKey();          // Aguarda uma tecla ser pressionada
 | `\0` | Caractere nulo |
 
 Exemplo:
-
 ```csharp
 WriteLine("Primeira linha\nSegunda linha");
 WriteLine("Nome\tIdade");
 ```
 
 ---
-
 # Interpolação de Strings
-
 Utiliza `$` para inserir variáveis dentro do texto.
-
 ```csharp
 string escola = "SENAI";
 WriteLine($"Escola: {escola}");
 ```
 
 ---
-
 # Configuração do Console
-
 ## Alterar o título
-
 ```csharp
 Title = "SENAI | BACKEND";
 ```
-
 ## Emitir um som
-
 ```csharp
 Beep(500, 500);
 ```
-
 - Primeiro valor: frequência (Hz)
 - Segundo valor: duração (ms)
 
 ---
-
 ## Alterar cores
-
 ```csharp
 BackgroundColor = ConsoleColor.DarkBlue;
 ForegroundColor = ConsoleColor.Green;
@@ -121,9 +100,7 @@ ForegroundColor = ConsoleColor.White;
 ```
 
 ---
-
 # Formatação Numérica
-
 ```csharp
 double numero = 1.787654321;
 
@@ -145,9 +122,7 @@ WriteLine($"{numero:c}");  // Moeda
 ```
 
 ---
-
 # Operadores Aritméticos
-
 | Operador | Descrição |
 |----------|-----------|
 | `+` | Soma |
@@ -157,7 +132,6 @@ WriteLine($"{numero:c}");  // Moeda
 | `%` | Resto da divisão (módulo) |
 
 Exemplos:
-
 ```csharp
 int a = 1 + 1;
 int b = 2 - 1;
@@ -167,20 +141,15 @@ int e = 5 % 2;
 ```
 
 ---
-
 # Potenciação e Raiz
-
 ```csharp
 double potencia = Math.Pow(2, 3); // 8
 double raiz = Math.Sqrt(4);       // 2
 ```
 
 ---
-
 # Ordem de Precedência
-
 A ordem das operações é:
-
 1. `()`
 2. `*`, `/`, `%`
 3. `+`, `-`
@@ -192,9 +161,7 @@ double resultado = 1 + (1 - (2 * 3)) / 4;
 ```
 
 ---
-
 # Operadores Relacionais
-
 | Operador | Significado |
 |----------|-------------|
 | `==` | Igual |
@@ -205,9 +172,7 @@ double resultado = 1 + (1 - (2 * 3)) / 4;
 | `<=` | Menor ou igual |
 
 ---
-
 # Operadores Lógicos
-
 | Operador | Significado |
 |----------|-------------|
 | `&&` | E |
@@ -215,15 +180,12 @@ double resultado = 1 + (1 - (2 * 3)) / 4;
 | `!` | NÃO |
 
 Exemplo:
-
 ```csharp
 bool resultado = idade >= 18 && possuiCNH;
 ```
 
 ---
-
 # Incremento e Decremento
-
 ```csharp
 int x = 0;
 
@@ -238,7 +200,6 @@ x %= 2;
 ```
 
 Exemplo:
-
 ```csharp
 int x = 0;
 
@@ -252,9 +213,7 @@ Console.WriteLine(x); // 0
 ```
 
 ---
-
 # Exemplo Completo
-
 ```csharp
 using static System.Console;
 
@@ -280,11 +239,8 @@ ReadKey();
 ```
 
 ---
-
 # Resumo dos Operadores
-
 ## Aritméticos
-
 ```text
 +  Soma
 -  Subtração
@@ -301,7 +257,6 @@ ReadKey();
 ```
 
 ## Relacionais
-
 ```text
 == Igual
 != Diferente
@@ -312,7 +267,6 @@ ReadKey();
 ```
 
 ## Lógicos
-
 ```text
 &&  E
 ||  OU
@@ -320,9 +274,7 @@ ReadKey();
 ```
 
 ---
-
 # Dicas
-
 - Sempre inicialize suas variáveis antes de utilizá-las.
 - Utilize nomes descritivos para variáveis.
 - Prefira interpolação (`$""`) ao invés de concatenação quando possível.
@@ -341,3 +293,5 @@ var = Tipagem de variáveis dinamica.
 // Saída de dados
 ```
 
+---
+# Aula 05
