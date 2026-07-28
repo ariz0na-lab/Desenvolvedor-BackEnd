@@ -17,7 +17,9 @@ try
     if (a + b > c && a + c > b && b + c > a)
     {
         await Task.Delay(1000);
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("\nOs valores formam um triângulo.");
+        Console.ForegroundColor = ConsoleColor.White;
         perimetro = a + b + c;
         Console.WriteLine($"Perímetro: {perimetro:f1}");
         Console.ReadKey();
@@ -25,7 +27,9 @@ try
     else
     {
         await Task.Delay(1000);
+        Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("\nOs valores não formam um triângulo.");
+        Console.ForegroundColor = ConsoleColor.White;
         areaTrapezio = ((a + b) * c) / 2;
         Console.WriteLine($"Área do trapézio: {areaTrapezio:f1}");
         Console.ReadKey();
@@ -33,7 +37,9 @@ try
 }
 catch (FormatException)
 {
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Entrada inválida. Por favor, digite um número válido.");
+    Console.ForegroundColor = ConsoleColor.White;
     Console.ReadKey();
 }
 
