@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ConsoleApp1/Exercicio01_Turno.csproj" />
+  <Project Path="Exercicio02_SalarioAjuste/Exercicio02_SalarioAjuste.csproj" />
+  <Project Path="Exercicio03_IR/Exercicio03_IR.csproj" />
+  <Project Path="Exercicio04_DiaSemana/Exercicio04_DiaSemana.csproj" />
+  <Project Path="Exercicio05_Triangulo/Exercicio05_Triangulo.csproj" />
+</Solution>
