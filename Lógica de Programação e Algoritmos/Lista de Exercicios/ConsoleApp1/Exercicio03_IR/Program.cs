@@ -14,6 +14,7 @@ try
     double descontoINSS = salarioBruto * 0.10;
     double descontoFGTS = salarioBruto * 0.11;
 
+
     if (salarioBruto <= 1500)
     {
         descontoIR = salarioBruto * 0.05;
@@ -27,16 +28,21 @@ try
         descontoIR = salarioBruto * 0.20;
     }
 
+    else
+    {
+        descontoIR = 0;
+    }
+
     Console.WriteLine("\n======================================");
     Console.WriteLine($"Salário Bruto {valorHora * horasTrabalhadas:C}");
     Console.WriteLine($"(-) IR {descontoIR:C}");
     Console.WriteLine($"(-) INSS (10%): {descontoINSS:C}");
     Console.WriteLine($"FGTS (11%): {descontoFGTS:C}");
-    Console.Write($"\nTotal de descontos ");
+    Console.Write($"Total de descontos ");
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine($"{descontoIR + descontoINSS:C}");
     Console.ForegroundColor = ConsoleColor.Gray;
-    Console.Write($"Salário Líquido: ");
+    Console.Write($"\nSalário Líquido: ");
     Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine($"{salarioBruto - descontoIR - descontoINSS:C}");
     Console.ForegroundColor = ConsoleColor.Gray;
@@ -51,4 +57,3 @@ catch (FormatException)
     Console.ForegroundColor = ConsoleColor.White;
     Console.ReadKey();
 }
-
