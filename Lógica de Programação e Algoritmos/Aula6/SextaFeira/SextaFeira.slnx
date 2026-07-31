@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="Aula03/Aula03.csproj" />
   <Project Path="Lanchonete/Lanchonete.csproj" />
+  <Project Path="ParOrImpar/ParOrImpar.csproj" />
+  <Project Path="Taboada/Tabuada.csproj" />
 </Solution>
