@@ -27,11 +27,6 @@ try
         descontoIR = salarioBruto * 0.20;
     }
 
-    else
-    {
-        descontoIR = 0;
-    }
-
     Console.WriteLine("\n======================================");
     Console.WriteLine($"Salário Bruto {valorHora * horasTrabalhadas:C}");
     Console.WriteLine($"(-) IR {descontoIR:C}");
