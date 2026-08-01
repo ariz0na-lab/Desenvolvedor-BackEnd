@@ -4,7 +4,25 @@ double alturaMinima = 1.60;
 double alturaMaxima = 1.80;
 int totalpermitidos = 0;
 
-Console.Write("Quantos visitantes vão entrar no brinquedo? R:");
+Console.Write("Portão abrindo .");
+    await Task.Delay(500);
+    Console.Write(" .");
+    await Task.Delay(500);
+    Console.Write(" .");
+    await Task.Delay(500);
+    Console.Write(" .");
+    await Task.Delay(500);
+    Console.Write(" .");
+    await Task.Delay(500);
+    Console.Write(" .");
+    await Task.Delay(500);
+    Console.Write(" .");
+    await Task.Delay(500);
+    Console.WriteLine(" .");
+Console.WriteLine("Portão aberto!");
+await Task.Delay(500);
+
+Console.Write("Quantos visitantes estão na fila? R:");
 int visitantes = int.Parse(Console.ReadLine());
 
 for (int i = 0; i < visitantes; i++)
