@@ -1,8 +1,10 @@
-﻿double alturaMinima = 1.60;
+﻿Console.Title = "CATRACA | YOK PARK";
+
+double alturaMinima = 1.60;
 double alturaMaxima = 1.80;
 int totalpermitidos = 0;
 
-Console.WriteLine("Quantos visitantes vão entrar no brinquedo?");
+Console.Write("Quantos visitantes vão entrar no brinquedo? R:");
 int visitantes = int.Parse(Console.ReadLine());
 
 for (int i = 0; i < visitantes; i++)
@@ -14,22 +16,33 @@ for (int i = 0; i < visitantes; i++)
 
     if (altura < alturaMinima)
     {
-        Console.WriteLine("Visitante não pode entrar no brinquedo, altura abaixo do permitido.");
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("Recusado.");
+        Console.ForegroundColor = ConsoleColor.White;
         continue;
     }
     else if (altura > alturaMaxima)
     {
-        Console.WriteLine("Visitante não pode entrar no brinquedo, altura acima do permitido.");
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("Recusado.");
+        Console.ForegroundColor = ConsoleColor.White;
         continue;
     }
     else
     {
-        Console.WriteLine($"Visitante pode entrar no brinquedo.");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"Liberado.");
+        Console.ForegroundColor = ConsoleColor.White;
         totalpermitidos = totalpermitidos + 1;
         continue;
     }
 }
 
-Console.WriteLine($"\nTotal de visitantes que entraram: {totalpermitidos}");
+Console.WriteLine($"\n-------------------------------------");
+Console.Write($"Total de visitantes que entraram: ");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine($"{totalpermitidos}");
+Console.ForegroundColor= ConsoleColor.White;
+Console.WriteLine($"-------------------------------------");
 
 Console.ReadLine();
