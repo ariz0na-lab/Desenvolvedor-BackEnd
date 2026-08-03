@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Combustivel/Combustivel.csproj" />
+  <Project Path="Dvisao/Dvisao.csproj" />
+  <Project Path="Impares/Impares.csproj" />
+</Solution>
