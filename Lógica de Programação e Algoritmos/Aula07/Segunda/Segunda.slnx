@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Aitivade_Aula07/Aitivade_Aula07.csproj" />
   <Project Path="Combustivel/Combustivel.csproj" />
   <Project Path="Dvisao/Dvisao.csproj" />
   <Project Path="Impares/Impares.csproj" />
